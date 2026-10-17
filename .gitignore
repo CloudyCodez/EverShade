@@ -1,0 +1,12 @@
+*.key
+*.pem
+*request*.json
+*redemption*.json
+*.exe
+*.dll
+*.zip
+runtime/
+client/
+logs/
+activation-owner/
+EvershadeOwner/
