@@ -27,7 +27,7 @@ Once approved, activation is stored under `%LOCALAPPDATA%\Evershade\activation`.
 
 ## First run
 
-1. Open **Setup & settings**, select your installed NTE folder, and choose **Set up client**.
+1. Open **Setup & settings** and choose **Set up client**. Leave the folder blank to search Steam libraries, or use **Browse** to select your NTE installation.
 2. Choose or create an account in **Accounts**. Close the game before switching accounts.
 3. Choose **Start server**. The Hub checks all three local services before enabling **Launch game**.
 
@@ -43,7 +43,7 @@ Do not delete your existing folder to update. If repairing manually, preserve `r
 
 ## Reporting a problem
 
-Include the Hub version, agent or activity involved, the last action before the failure, and whether it survives a full restart. **Activity → Open logs folder** opens the local logs. Remove personal information before sharing logs. Never upload a profile backup, tester key or activation request publicly.
+Include the Hub version, agent or activity involved, the last action before the failure, and whether it survives a full restart. Click **Export logs** beside the server controls and send the resulting ZIP to Cloud. This works even if the server cannot start. The export includes recent log tails, Hub activity and service status; it excludes account saves and activation files. Review logs before sharing them publicly. **Activity → Open logs folder** also opens the original files. Never upload a profile backup, tester key or activation request publicly.
 
 ## Credits and notices
 
