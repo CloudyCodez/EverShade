@@ -1,5 +1,16 @@
 # Release notes
 
+## Hub 0.1.2 — October 17, 2026
+
+- Fixed the false "Missing service" error after successful startup. Health checks and log exports now normalize Windows path separators before comparing process paths.
+- Added automatic first-run client discovery across Steam libraries, registered NTE installs and common game folders on available drives. Discovery verifies the supported client build before selecting it.
+- Added numbered setup steps, a persistent progress display, file-preparation counts and explicit verification confirmation. Start server stays disabled until client preparation finishes.
+- Added setup checks for free space, NTFS and matching drives, plus clear instructions when the Hub folder needs moving beside the installed game's drive.
+- Failed or interrupted preparation is no longer marked ready. Repeating setup resumes existing files and checks the final executable and base DLL hashes.
+- Expanded diagnostics with normalized expected service paths and process-inspection errors.
+
+Verified the reported path mismatch against actual running services, automatic discovery, supported-build rejection, isolated client preparation and repeat setup under Windows PowerShell 5.1. Gameplay runtime is unchanged from 0.1.0; story restoration remains in progress.
+
 ## Hub 0.1.1 — October 17, 2026
 
 - Fixed low-contrast tabs and profile dropdowns. Account and setup panels now scroll on smaller displays.

@@ -27,9 +27,12 @@ Once approved, activation is stored under `%LOCALAPPDATA%\Evershade\activation`.
 
 ## First run
 
-1. Open **Setup & settings** and choose **Set up client**. Leave the folder blank to search Steam libraries, or use **Browse** to select your NTE installation.
-2. Choose or create an account in **Accounts**. Close the game before switching accounts.
-3. Choose **Start server**. The Hub checks all three local services before enabling **Launch game**.
+1. On first launch, Hub opens **Setup & settings** and searches for NTE automatically. The selected path and supported-build confirmation appear on screen. Use **Find NTE automatically** to search again, or **Browse** for an unusual installation folder.
+2. Click **Prepare client**. Watch the progress display for file counts and final verification. If NTE is on a different drive, move the extracted Evershade folder to that drive first; this allows large content files to be shared instead of duplicated.
+3. Click **Start server** after setup reports success. First startup can take up to two minutes; progress appears in Activity. Wait for **Server ready**.
+4. Click **Launch game**. The button only enables when client setup is complete and all three local services pass their health checks.
+
+The default account is **Player**. Creating more accounts is optional; use **Accounts** when needed and close the game before switching.
 
 The supported client is prepared in a separate folder. Accounts have separate saves under `runtime\profiles`. Use **Back up selected** before testing a major update. Removing an account keeps a recovery copy under `runtime\deleted-accounts`.
 
