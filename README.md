@@ -36,6 +36,14 @@ The default account is **Player**. Creating more accounts is optional; use **Acc
 
 The supported client is prepared in a separate folder. Accounts have separate saves under `runtime\profiles`. Use **Back up selected** before testing a major update. Removing an account keeps a recovery copy under `runtime\deleted-accounts`.
 
+## Player and story testing controls
+
+Press **F10** in the game for the native testing menu. Player controls include God mode, one-hit kills, infinite stamina and unlimited transformation for Black Bird and Fadia (press R again to exit). Other agents’ alternate states are still being restored. Story recovery can advance the current objective or skip the tracked quest when a restoration issue blocks testing; it changes that account's progress, so back up first. These controls share the current client session with the Hub.
+
+## Recovered audio
+
+The complete 0.1.3 setup includes recovered English voice packs. Automatic updates from older Hubs omit these large optional packs to preserve update compatibility. An older installation without them can still start; use the complete setup for recovered audio while preserving the local account and settings files listed below.
+
 ## Updates
 
 The Hub checks this repository's latest release and downloads newer signed updates. An available, verified newer release is required before setup or game launch. Apply it with **Install update & restart** after closing the game.

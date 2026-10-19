@@ -1,5 +1,13 @@
 # Release notes
 
+## Hub 0.1.3 — October 19, 2026
+
+- Added native F10 player controls for God mode, one-hit kills, infinite stamina and unlimited transformation for Black Bird and Fadia, plus targeted story objective/quest recovery controls. The Hub and in-game controls share the current session.
+- Fixed numbered native widget lookup, translated Player/Story controls and removed unused GM buttons. Fixed a form-monitor type mismatch that could stop the local server during login.
+- Updated the gameplay runtime with movement-role fixes, character development, Arcs and Consoles, and additional story and City Tycoon restoration work. City Tycoon and story remain incomplete; this is not a claim of full live-server parity.
+- Full setup includes recovered English voice content. The automatic update preserves compatibility with existing 0.1.2 Hubs and does not include the large voice packs; existing installations can use the complete setup for recovered audio.
+- Preserved local profiles, settings, activation records and the matching AGPL license/corresponding server source in the release.
+
 ## Hub 0.1.2 — October 17, 2026
 
 - Fixed the false "Missing service" error after successful startup. Health checks and log exports now normalize Windows path separators before comparing process paths.
