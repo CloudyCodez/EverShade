@@ -1,5 +1,14 @@
 # Release notes
 
+## Hub 0.1.4 — October 20, 2026
+
+- Existing installations now fetch and verify missing English voice packs automatically during client preparation or game launch, with download progress and interrupted-download recovery. Complete installations reuse their local packs.
+- Restored Shinku's held-forward sprint form and corrected native form-effect application. Fixed temporary ability removal so Fadia retains her base abilities after using her ultimate. Both fixes were confirmed in the running client.
+- Improved active-agent skill and ultimate rebinding. Some custom resource displays and alternate-state mechanics still need verification; this release does not claim full agent parity.
+- Fixed business earnings collection losing partial operating time, repeated settlement after clock rollback, and accrual after capped offline periods. Added Tycoon upgrade request and account-ownership validation.
+- Includes the current housing and character restoration work. Housing interactions, Tycoon rewards and the full story remain under testing.
+- Preserves accounts, settings and tester activation. The signed update remains compatible with older Hubs; the large voice downloads are separate from the update archive. Matching AGPL server source and build instructions remain included.
+
 ## Hub 0.1.3 — October 19, 2026
 
 - Added native F10 player controls for God mode, one-hit kills, infinite stamina and unlimited transformation for Black Bird and Fadia, plus targeted story objective/quest recovery controls. The Hub and in-game controls share the current session.

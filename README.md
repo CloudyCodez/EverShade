@@ -42,7 +42,7 @@ Press **F10** in the game for the native testing menu. Player controls include G
 
 ## Recovered audio
 
-The complete 0.1.3 setup includes recovered English voice packs. Automatic updates from older Hubs omit these large optional packs to preserve update compatibility. An older installation without them can still start; use the complete setup for recovered audio while preserving the local account and settings files listed below.
+Hub 0.1.4 checks for recovered English speech during client preparation and game launch. Missing content downloads automatically with visible progress; interrupted downloads can resume. Existing complete content is reused. Allow approximately 1.7 GB for the voice download if your installation is missing it. The complete setup includes these packs, while the automatic Hub update downloads them separately when needed.
 
 ## Updates
 
