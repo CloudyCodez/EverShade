@@ -12,18 +12,9 @@ Get **Evershade-Setup.zip** from [Releases](https://github.com/CloudyCodez/EverS
 
 You need Windows x64 and your own installed NTE client matching supported Steam build **26083544**. The setup does not include the official game. Extract EverShade onto the same NTFS drive as your installed client so setup can share content files without downloading them again. Python and .NET do not need to be installed separately.
 
-## Tester access
+## Open testing
 
-Downloads are public. Setup currently requires a tester key issued by Cloud.
-
-1. Put your assigned `.key` file beside `Evershade Hub.exe`. Keep only your own invitation in that folder.
-2. Open the Hub and choose **Export request**.
-3. Send the generated activation-request JSON to Cloud privately.
-4. Import the approved `.key` file Cloud returns. You can also place it beside the Hub and reopen it.
-
-Each invitation can approve one PC installation. Re-exporting the same request does not use another key. Do not post invitations or activation requests in public issues. A reinstall of Windows or loss of your local activation folder may need Cloud's help.
-
-Once approved, activation is stored under `%LOCALAPPDATA%\Evershade\activation`. Updating the Hub does not ask for your key again. The game server runs locally; approval is a manual exchange, not a permanent connection to a licensing service.
+Testing is open. No invitation key, activation request or manual approval is required. Download the setup and follow the steps below. Existing accounts and saves stay in place when updating.
 
 ## First run
 
@@ -52,7 +43,7 @@ Close the game and server, then install the signed Hub 0.5 update. Open **Setup 
 
 The Hub checks this repository's latest release and downloads newer signed updates. An available, verified newer release is required before setup or game launch. Apply it with **Install update & restart** after closing the game.
 
-Update manifests are signed by Cloud's owner key. Packages and individual files are checked before installation. An update cannot replace profiles, account configuration or the activation store. Failed installation attempts roll back replaced files and write a result in `runtime\hub-updates`; the Hub does not automatically restart itself into an installation loop. When GitHub cannot be reached, a previously discovered required update remains required. Otherwise the Hub can continue offline with its installed version.
+Update manifests are signed by Cloud's owner key. Packages and individual files are checked before installation. An update cannot replace profiles or account configuration. Failed installation attempts roll back replaced files and write a result in `runtime\hub-updates`; the Hub does not automatically restart itself into an installation loop. When GitHub cannot be reached, a previously discovered required update remains required. Otherwise the Hub can continue offline with its installed version.
 
 Do not delete your existing folder to update. If repairing manually, preserve `runtime\profiles`, `runtime\accounts.json`, your `.toml` files, `evershade.json`, and the activation directory above.
 

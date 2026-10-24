@@ -1,5 +1,11 @@
 # Release notes
 
+## Hub 0.5.1 — October 24, 2026
+
+- Opened testing to everyone. Removed the invitation/activation screen and key checks from client setup, server start and game launch. No approval or machine registration is required.
+- Kept signed automatic updates, client compatibility checks and server health checks. Existing accounts and saves are preserved.
+- Gameplay runtime is unchanged from 0.5.0.
+
 ## Hub 0.5.0 — October 24, 2026
 
 - Ported the private-client adapter and Hub setup to Steam build 26083544. Updated native function addresses and changed player/character fields, including Shinku resource handling, housing state and Fair diagnostics.
