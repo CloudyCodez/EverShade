@@ -10,7 +10,7 @@ This is a testing build. Story restoration is in progress. A successful login or
 
 Get **Evershade-Setup.zip** from [Releases](https://github.com/CloudyCodez/EverShade/releases). Extract the whole folder before running `Evershade Hub.exe`.
 
-You need Windows x64 and your own installed NTE client matching supported build **25643250**. The setup does not include the official game. Extract EverShade onto the same NTFS drive as your installed client so setup can share content files without downloading them again. Python and .NET do not need to be installed separately.
+You need Windows x64 and your own installed NTE client matching supported Steam build **26083544**. The setup does not include the official game. Extract EverShade onto the same NTFS drive as your installed client so setup can share content files without downloading them again. Python and .NET do not need to be installed separately.
 
 ## Tester access
 
@@ -42,7 +42,11 @@ Press **F10** in the game for the native testing menu. Player controls include G
 
 ## Recovered audio
 
-Hub 0.1.4 checks for recovered English speech during client preparation and game launch. Missing content downloads automatically with visible progress; interrupted downloads can resume. Existing complete content is reused. Allow approximately 1.7 GB for the voice download if your installation is missing it. The complete setup includes these packs, while the automatic Hub update downloads them separately when needed.
+Hub 0.1.4 checks for recovered English speech during client preparation and game launch. Missing content downloads automatically with visible progress; interrupted downloads can resume. Existing complete content is reused. Allow approximately 1.7 GB for the voice download if your installation is missing it. Setup and automatic updates reuse the same published, hash-verified speech packs. They download only when missing; an existing working voice installation is kept.
+
+## Updating from 0.1.4
+
+Close the game and server, then install the signed Hub 0.5 update. Open **Setup & settings → Prepare client** once to connect the updated Steam content to your private client. Accounts and activation stay in place. This release requires Steam build 26083544; it does not bypass the client compatibility check.
 
 ## Updates
 

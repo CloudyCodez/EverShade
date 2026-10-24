@@ -1,5 +1,15 @@
 # Release notes
 
+## Hub 0.5.0 — October 24, 2026
+
+- Ported the private-client adapter and Hub setup to Steam build 26083544. Updated native function addresses and changed player/character fields, including Shinku resource handling, housing state and Fair diagnostics.
+- Client preparation now reconnects shared content files when Steam replaces its archives. Existing accounts and activation are preserved; run Prepare client once after installing this update.
+- Added business furnishing transactions and demand modifiers, bounded housing-layout restoration, Tycoon property refresh, and safer NPC shop purchase validation. Added paid Puka activity transactions; score-based Puka minigames remain unfinished.
+- Updated agent HUD rebinding and native resource-widget refresh after switching characters. Story, housing and agent behavior still need gameplay testing; this release does not claim full live-server parity.
+- Preserves signed automatic updates and automatic recovery of missing English voice packs.
+
+Validation: 182 server tests, 47 adapter tests, Hub self-test, setup/archive repair, and update rollback checks pass. Native adapter initialization was verified on the new build. World entry and gameplay on this Steam build still need tester verification; they are not claimed as passed.
+
 ## Hub 0.1.4 — October 20, 2026
 
 - Existing installations now fetch and verify missing English voice packs automatically during client preparation or game launch, with download progress and interrupted-download recovery. Complete installations reuse their local packs.
